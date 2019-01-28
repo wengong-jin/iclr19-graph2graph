@@ -51,4 +51,12 @@ bash decode_and_eval.sh
 ```
 or equivalently `bash eval.sh`. This should print the model performance as follows:
 ```
+logp06 task: Evaluated on 800 samples
+average improvement 2.33211345528 stdev 1.28808721418
+logp04 task: Evaluated on 800 samples
+average improvement 3.58104201902 stdev 1.62546251435
+QED task: Evaluated on 800 samples
+success rate 0.605
+DRD2 task: Evaluated on 1000 samples
+success rate 0.781
 ```
