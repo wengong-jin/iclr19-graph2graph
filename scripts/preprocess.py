@@ -37,7 +37,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--train', required=True)
     parser.add_argument('--mode', type=str, default='pair')
-    parser.add_argument('--ncpu', type=int, default=4)
+    parser.add_argument('--ncpu', type=int, default=8)
     args = parser.parse_args()
 
     pool = Pool(args.ncpu)
