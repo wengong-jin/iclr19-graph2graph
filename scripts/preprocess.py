@@ -3,8 +3,8 @@ import torch.nn as nn
 from multiprocessing import Pool
 
 import math, random, sys
-from optparse import OptionParser
 import cPickle as pickle
+import argparse
 
 from fast_jtnn import *
 import rdkit
@@ -34,21 +34,21 @@ if __name__ == "__main__":
     lg = rdkit.RDLogger.logger() 
     lg.setLevel(rdkit.RDLogger.CRITICAL)
 
-    parser = OptionParser()
-    parser.add_option("-t", "--train", dest="train_path")
-    parser.add_option("-n", "--split", dest="nsplits")
-    parser.add_option("-m", "--mode", dest="mode")
-    opts,args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--train', required=True)
+    parser.add_argument('--mode', type=str, default='pair')
+    parser.add_argument('--ncpu', type=int, default=4)
+    args = parser.parse_args()
 
-    pool = Pool(12)
-    num_splits = int(opts.nsplits)
+    pool = Pool(args.ncpu)
 
-    if opts.mode == 'pair':
+    if args.mode == 'pair':
         #dataset contains molecule pairs
-        with open(opts.train_path) as f:
+        with open(args.train) as f:
             data = [line.strip("\r\n ").split()[:2] for line in f]
 
         all_data = pool.map(tensorize_pair, data)
+        num_splits = len(data) / 10000
 
         le = (len(all_data) + num_splits - 1) / num_splits
 
@@ -59,12 +59,13 @@ if __name__ == "__main__":
             with open('tensors-%d.pkl' % split_id, 'wb') as f:
                 pickle.dump(sub_data, f, pickle.HIGHEST_PROTOCOL)
 
-    elif opts.mode == 'single':
+    elif args.mode == 'single':
         #dataset contains single molecules
-        with open(opts.train_path) as f:
+        with open(args.train) as f:
             data = [line.strip("\r\n ").split()[0] for line in f]
 
         all_data = pool.map(tensorize, data)
+        num_splits = len(data) / 10000
 
         le = (len(all_data) + num_splits - 1) / num_splits
 

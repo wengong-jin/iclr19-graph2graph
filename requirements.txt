@@ -1,0 +1,4 @@
+rdkit
+scikit-learn
+torch
+numpy
