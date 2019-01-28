@@ -17,6 +17,8 @@ A quick summary of different folders:
 * `fast_jtnn/` contains the implementation of junction tree encoder-decoder.
 * `diff_vae/` includes the training and decoding script of variational junction tree encoder-decoder ([README](./diff_vae/README.md)).
 * `diff_vae_gan/` includes the training and decoding script of adversarial training module ([README](./diff_vae_gan/README.md)).
+* `props/` is the property evaluation module, including penalized logP, QED and DRD2 property calculation.
+* `scripts/` provides evaluation and data preprocessing scripts.
 
 # Contact
 Wengong Jin (wengong@csail.mit.edu)
