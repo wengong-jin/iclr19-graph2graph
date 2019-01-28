@@ -3,7 +3,7 @@
 The folder contains the training and testing scripts for variational junction tree encoder-decoder with adversarial training. The trained model is saved in `models/` for all datasets. Sample translations of the test set are provided in `results/` folder. 
 
 ## Preprocessing
-Please make sure you first preprocess the paired translation data following ([README](../diff_vae)) in `../diff_vae`. In addtion, we need to preprocess the "good" molecules in the target domain:
+Please make sure you first preprocess the paired translation data following ([diff_vae/README.md](../diff_vae)). In addtion, we need to preprocess the "good" molecules in the target domain:
 ```
 python ../scripts/preprocess.py --train ../data/qed/good.txt --mode single --ncpu 8
 mkdir good-processed
