@@ -1,0 +1,38 @@
+drd2/h300s8b1.0//model.iter-1
+success rate 0.414
+drd2/h300s8b1.0//model.iter-2
+success rate 0.466
+drd2/h300s8b1.0//model.iter-3
+success rate 0.518
+drd2/h300s8b1.0//model.iter-4
+success rate 0.598
+drd2/h300s8b1.0//model.iter-5
+success rate 0.6
+drd2/h300s8b1.0//model.iter-6
+success rate 0.624
+drd2/h300s8b1.0//model.iter-7
+success rate 0.658
+drd2/h300s8b1.0//model.iter-8
+success rate 0.666
+drd2/h300s8b1.0//model.iter-9
+success rate 0.66
+drd2/h300s8b1.0//model.iter-10
+success rate 0.64
+drd2/h300s8b1.0//model.iter-11
+success rate 0.702
+drd2/h300s8b1.0//model.iter-12
+success rate 0.696
+drd2/h300s8b1.0//model.iter-13
+success rate 0.706
+drd2/h300s8b1.0//model.iter-14
+success rate 0.68
+drd2/h300s8b1.0//model.iter-15
+success rate 0.684
+drd2/h300s8b1.0//model.iter-16
+success rate 0.704
+drd2/h300s8b1.0//model.iter-17
+success rate 0.706
+drd2/h300s8b1.0//model.iter-18
+success rate 0.71
+drd2/h300s8b1.0//model.iter-19
+success rate 0.69

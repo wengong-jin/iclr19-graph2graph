@@ -1,0 +1,31 @@
+blogp04/h330s8b1.0//model.iter-3
+average improvement 3.56877559514 1.76873248455
+success rate 0.34975
+blogp04/h330s8b1.0//model.iter-4
+average improvement 3.68566404984 1.61628361445
+success rate 0.397
+blogp04/h330s8b1.0//model.iter-5
+average improvement 3.73598440936 1.61811716402
+success rate 0.438
+blogp04/h330s8b1.0//model.iter-6
+average improvement 3.6294261844 1.61606871911
+success rate 0.40725
+blogp04/h330s8b1.0//model.iter-7
+average improvement 3.61368915098 1.58117701573
+success rate 0.422
+blogp04/h330s8b1.0//model.iter-8
+average improvement 3.6217186718 1.73434891805
+success rate 0.414
+blogp04/h330s8b1.0//model.iter-9
+average improvement 3.65273311045 1.7225850264
+success rate 0.39
+blogp04/h330s8b1.0//model.iter-10
+average improvement 3.68255812271 1.64283199325
+success rate 0.38675
+blogp04/h330s8b1.0//model.iter-11
+average improvement 3.75326911803 1.61424378463
+success rate 0.38675
+blogp04/h330s8b1.0//model.iter-12
+average improvement 3.66671212226 1.58191718644
+success rate 0.391
+blogp04/h330s8b1.0//model.iter-13

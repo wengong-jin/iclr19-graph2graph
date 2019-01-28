@@ -1,0 +1,23 @@
+qed//model.iter-1
+success rate 0.475
+qed//model.iter-2
+success rate 0.491666666667
+qed//model.iter-3
+success rate 0.527777777778
+qed//model.iter-4
+success rate 0.480555555556
+qed//model.iter-5
+success rate 0.486111111111
+qed//model.iter-6
+success rate 0.505555555556
+qed//model.iter-7
+success rate 0.502777777778
+qed//model.iter-8
+success rate 0.480555555556
+qed//model.iter-9
+success rate 0.480555555556
+qed//model.iter-10
+success rate 0.486111111111
+qed//model.iter-11
+success rate 0.488888888889
+qed//model.iter-12

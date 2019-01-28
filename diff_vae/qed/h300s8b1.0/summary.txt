@@ -1,0 +1,28 @@
+qed/h300s8b1.0//model.iter-1
+success rate 0.472222222222
+qed/h300s8b1.0//model.iter-2
+success rate 0.486111111111
+qed/h300s8b1.0//model.iter-3
+success rate 0.475
+qed/h300s8b1.0//model.iter-4
+success rate 0.513888888889
+qed/h300s8b1.0//model.iter-5
+success rate 0.466666666667
+qed/h300s8b1.0//model.iter-6
+success rate 0.469444444444
+qed/h300s8b1.0//model.iter-7
+success rate 0.472222222222
+qed/h300s8b1.0//model.iter-8
+success rate 0.461111111111
+qed/h300s8b1.0//model.iter-9
+success rate 0.494444444444
+qed/h300s8b1.0//model.iter-10
+success rate 0.469444444444
+qed/h300s8b1.0//model.iter-11
+success rate 0.472222222222
+qed/h300s8b1.0//model.iter-12
+success rate 0.486111111111
+qed/h300s8b1.0//model.iter-13
+success rate 0.469444444444
+qed/h300s8b1.0//model.iter-14
+success rate 0.461111111111

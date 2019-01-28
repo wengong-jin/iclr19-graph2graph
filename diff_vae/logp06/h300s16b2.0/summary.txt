@@ -1,0 +1,27 @@
+blogp06/h300s16b2.0//model.iter-2
+average improvement 2.13186093439 1.31732565062
+success rate 0.33125
+blogp06/h300s16b2.0//model.iter-3
+average improvement 2.21283794898 1.26209926273
+success rate 0.35475
+blogp06/h300s16b2.0//model.iter-4
+average improvement 2.32680009819 1.19598575648
+success rate 0.4065
+blogp06/h300s16b2.0//model.iter-5
+average improvement 2.45875673111 1.32785846192
+success rate 0.37975
+blogp06/h300s16b2.0//model.iter-6
+average improvement 2.28338423987 1.22356558823
+success rate 0.4145
+blogp06/h300s16b2.0//model.iter-7
+average improvement 2.34257903204 1.19463663859
+success rate 0.392
+blogp06/h300s16b2.0//model.iter-8
+average improvement 2.38306810299 1.10057875158
+success rate 0.43
+blogp06/h300s16b2.0//model.iter-9
+average improvement 2.38627838761 1.27017599158
+success rate 0.41025
+blogp06/h300s16b2.0//model.iter-10
+average improvement 2.3196676029 1.2047999827
+success rate 0.41
