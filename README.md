@@ -9,7 +9,7 @@ This is the official implementation of junction tree encoder-decoder model in ht
 * Numpy
 * scikit-learn
 
-The code is tested under python 2.7 with pytorch 0.4.0 and 0.4.1. 
+The code has been tested under python 2.7 with pytorch 0.4.0 and 0.4.1. 
 
 # Quick Start
 A quick summary of different folders:
