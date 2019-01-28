@@ -5,17 +5,17 @@ The folder contains the training and testing scripts for variational junction tr
 ## Preprocessing
 Please make sure you first preprocess the paired translation data following ([diff_vae/README.md](../diff_vae)). In addtion, we need to preprocess the "good" molecules in the target domain:
 ```
-python ../scripts/preprocess.py --train ../data/qed/good.txt --mode single --ncpu 8
-mkdir good-processed
-mv tensor* good-processed
+python ../scripts/preprocess.py --train ../data/qed/target.txt --mode single --ncpu 8
+mkdir target-processed
+mv tensor* target-processed
 ```
 
 ## Training
-Let's use QED task as a running example. Suppose your preprocessed translation pairs are saved in `../data/qed/processed` and target domain molecules are saved in `../data/qed/good-processed`. To train our model, run
+Let's use QED task as a running example. Suppose your preprocessed translation pairs are saved in `../data/qed/processed` and target domain molecules are saved in `../data/qed/target-processed`. To train our model, run
 ```
 mkdir -p newmodels/qed
 python arae_train.py --train ../data/qed/processed/ --vocab ../data/qed/vocab.txt \ 
---ymols ../data/qed/good-processed/ --save_dir newmodels/qed \ 
+--ymols ../data/qed/target-processed/ --save_dir newmodels/qed \ 
 --hidden_size 300 --rand_size 8 --epoch 10 --anneal_rate 0.8 | tee newmodels/qed/LOG
 ```
 Here `--ymols` specifies the folder where target domain molecules are stored.
