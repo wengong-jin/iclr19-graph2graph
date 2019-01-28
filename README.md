@@ -2,7 +2,7 @@
 
 This is the official implementation of junction tree encoder-decoder model in https://arxiv.org/abs/1812.01070
 
-# Requirements
+## Requirements
 * Python == 2.7
 * RDKit >= 2017.09
 * PyTorch >= 0.4.0
@@ -11,7 +11,7 @@ This is the official implementation of junction tree encoder-decoder model in ht
 
 The code has been tested under python 2.7 with pytorch 0.4.0 and 0.4.1. 
 
-# Quick Start
+## Quick Start
 A quick summary of different folders:
 * `data/` contains the training, validation and test set of logP, QED and DRD2 tasks described in the paper.
 * `fast_jtnn/` contains the implementation of junction tree encoder-decoder.
@@ -20,5 +20,5 @@ A quick summary of different folders:
 * `props/` is the property evaluation module, including penalized logP, QED and DRD2 property calculation.
 * `scripts/` provides evaluation and data preprocessing scripts.
 
-# Contact
+## Contact
 Wengong Jin (wengong@csail.mit.edu)
