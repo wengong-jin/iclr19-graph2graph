@@ -35,7 +35,10 @@ python vae_train.py --train processed/ --vocab ../data/logp04/vocab.txt --save_d
 ```
 Specifically, `--hidden_size 330` sets the hidden state dimension to be 330 and `--rand_size 8` sets the latent code dimension to be 8. `--epoch 10 --anneal_rate 0.8` means the model will be trained for 10 epochs, with learning rate annealing 0.8. The model checkpoints are saved in `newmodels/logp04`.
 
-The hyperparameters of our experiments in the paper are provided in `train.sh`. Our models with the best validation performance are provided in `models/` folder (e.g., `models/logp04/model.iter-5` for the logp04 model). After you have preprocessed all four datasets, you can run `bash train.sh` to train our model on all datasets.
+The hyperparameters of our experiments in the paper are provided in `train.sh`. Our models with the best validation performance are provided in `models/` folder (e.g., `models/logp04/model.iter-5` for the logp04 model). After you have preprocessed all four datasets, you can run `bash train.sh` to train our model on all datasets:
+```
+bash train.sh
+```
 
 ## Validation
 After training, you can evaluate different model checkpoints to select the one with the best performance:
