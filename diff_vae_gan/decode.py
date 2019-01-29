@@ -30,7 +30,7 @@ parser.add_argument('--share_embedding', action='store_true')
 parser.add_argument('--use_molatt', action='store_true')
 
 parser.add_argument('--num_decode', type=int, default=20)
-parser.add_argument('--seed', type=int, default=2)
+parser.add_argument('--seed', type=int, default=3)
 
 args = parser.parse_args()
   

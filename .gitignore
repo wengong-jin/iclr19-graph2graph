@@ -1,2 +1,9 @@
 smiles/
 *.pyc
+*.pkl
+newmodels/
+diff_vae/results.*
+diff_vae_gan/results.*
+diff_vae/work.sh
+diff_vae/models/*/results.*
+valid_all.sh
