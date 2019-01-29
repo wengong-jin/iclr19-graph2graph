@@ -12,7 +12,7 @@ This is the official implementation of junction tree encoder-decoder model in ht
 The code has been tested under python 2.7 with pytorch 0.4.1. 
 
 ## Quick Start
-The tutorial of training and testing our model is in [diff_vae/README.md](./diff_vae) and [diff_vae_gan/README.md](./diff_vae_gan).
+The tutorial of training and testing our variational junction tree encoder-decoder is in [diff_vae/README.md](./diff_vae).
 
 A quick summary of different folders:
 * `data/` contains the training, validation and test set of logP, QED and DRD2 tasks described in the paper.
